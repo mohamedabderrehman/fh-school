@@ -110,4 +110,4 @@ Legacy synthetic passwords remain plaintext inside the sample database. Treat th
 - [Case study](docs/case-study.md)
 - [Verification](docs/verification.md)
 - [Architecture diagram](docs/architecture.svg)
-- [Portfolio case study](https://mohamed-abderrehmane-portfolio.wry-dog-0796.chatgpt.site/projects/fh-school/)
+- [Portfolio case study](https://mohamed-abderrehmane-portfolio.hillock-factual9mupt.chatgpt.site/projects/fh-school/)

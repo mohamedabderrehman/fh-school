@@ -31,13 +31,13 @@
   },
   {
     "path": "README.ar.md",
-    "bytes": 6886,
-    "sha256": "a2a9043a8b3fd40ed121ef5bf5685d2ac166f2e3d2234981e65759353b687367"
+    "bytes": 6894,
+    "sha256": "147b18c82344b0b55ce1cd840361214fd3dc5b442d94511692867ab5d629618b"
   },
   {
     "path": "README.md",
-    "bytes": 5678,
-    "sha256": "46ce5cf19d7597bac995569305e71b9d0e04cdc7021dc2c2c36a2c645810dcb2"
+    "bytes": 5686,
+    "sha256": "9c6ff5a42cd7ba52e9ae42f54bec553890a4e973325c95454482c126390d5583"
   },
   {
     "path": "SECURITY.md",
@@ -308,6 +308,16 @@
     "path": "docs/images/teacher-grades.jpg",
     "bytes": 30376,
     "sha256": "b6d37c137016de38599e3386a8603703147b3f87910459758b504639702d9b71"
+  },
+  {
+    "path": "docs/publication.ar.md",
+    "bytes": 715,
+    "sha256": "eb852b075f9a4c2478b5ee5381197a26dbf9bb83df3928a7d82a7496cb907c56"
+  },
+  {
+    "path": "docs/publication.md",
+    "bytes": 635,
+    "sha256": "6ee2a3926592bd0ec0be0b08ffda6be754b33d2064a39af67c9240c577efa191"
   },
   {
     "path": "docs/setup.ar.md",
