@@ -1,0 +1,22 @@
+[
+  {
+    "path": "docs/architecture.svg",
+    "sha256": "715968cbd1827e6b566096adb88e23f90f73200fbf8519a82dc1406f89642ee3",
+    "scope": "Actual synthetic application capture"
+  },
+  {
+    "path": "docs/images/teacher-class.jpg",
+    "sha256": "b93b9f334debdb61a368b59469d1a5ded60839b50baf56f0c2eb3d7026dae492",
+    "scope": "Actual synthetic application capture"
+  },
+  {
+    "path": "docs/images/teacher-dashboard.jpg",
+    "sha256": "bbafe1b8d217ebc85806916a81ca2ed33009c9897350341656143f27f63065ab",
+    "scope": "Actual synthetic application capture"
+  },
+  {
+    "path": "docs/images/teacher-grades.jpg",
+    "sha256": "b6d37c137016de38599e3386a8603703147b3f87910459758b504639702d9b71",
+    "scope": "Actual synthetic application capture"
+  }
+]

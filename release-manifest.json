@@ -1,0 +1,462 @@
+[
+  {
+    "path": ".env.example",
+    "bytes": 22,
+    "sha256": "f4b2379c948073686204f0d5ab913a4258f7349cfb17544d3f5d8b3ff3878596"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 547,
+    "sha256": "278bd82cc34d3b4d4ce316fb91ff06a854efa4f992c3985e2bc1a5b9fa99d62d"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 643,
+    "sha256": "fce9b87b29654ad57d951465929cd84564afedf9f31702b0122a0caa1321e37d"
+  },
+  {
+    "path": ".htaccess",
+    "bytes": 169,
+    "sha256": "cde8e37a1d42976840f4eceee49783b2e7ab3c72b6b87f126889403865e92af2"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 324,
+    "sha256": "11f44e1400db68dc2eb2604192b39bb672a5f6b4b543ce9ebe4bcfda1282668a"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1098,
+    "sha256": "2f0710fed6c9393bb1e564c55d00df43608b35631d84cc245d414a6e001368d5"
+  },
+  {
+    "path": "README.ar.md",
+    "bytes": 6886,
+    "sha256": "a2a9043a8b3fd40ed121ef5bf5685d2ac166f2e3d2234981e65759353b687367"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5678,
+    "sha256": "46ce5cf19d7597bac995569305e71b9d0e04cdc7021dc2c2c36a2c645810dcb2"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 2259,
+    "sha256": "647f8af294afb3272e24ebc9bd98e94dc96196ca5d1038014251333451c35cbc"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 2334,
+    "sha256": "e564e47d6802d9b741bcf96cc31e719417234c2cde744d687b5ca290261391a6"
+  },
+  {
+    "path": "csrf.php",
+    "bytes": 494,
+    "sha256": "5c7ad1375ed77639f3366f20757beda5b7c1bd7e86819faf40751a7ff2a967c4"
+  },
+  {
+    "path": "data/1/L/database.sqlite",
+    "bytes": 12288,
+    "sha256": "bc1ee5657502785a6acf08fc9727fbcd9f71b61d26b57c80066bba126d6ba86c"
+  },
+  {
+    "path": "data/1/L/database.txt",
+    "bytes": 3621,
+    "sha256": "69056d388a2371ea347f72332933760e36de79b6ddf25e07c5f4602df1d9dec7"
+  },
+  {
+    "path": "data/1/S/database.sqlite",
+    "bytes": 12288,
+    "sha256": "014d977802c250b359118e7e31f6221495eb345d6c001ed756a3a7a48e535d62"
+  },
+  {
+    "path": "data/1/S/database.txt",
+    "bytes": 8628,
+    "sha256": "f062ff3e0d5d353f93f375674a0d8193501d3b1579503dfb5a217ced8c514fc4"
+  },
+  {
+    "path": "data/2/L/LANG/database.sqlite",
+    "bytes": 24576,
+    "sha256": "0ed47bf8d212ce10582b238408ac32590d81a0d9f7b934c3c9b40e8976d1d27d"
+  },
+  {
+    "path": "data/2/L/LANG/database.txt",
+    "bytes": 4580,
+    "sha256": "0963c622057e149c303c9781423e5d54e2758411093e1ca3bd97e3bfca7356c7"
+  },
+  {
+    "path": "data/2/L/PH&L/database.sqlite",
+    "bytes": 24576,
+    "sha256": "abc7f115a3ce065cb9bd3ece1352825e9b07312c3ccbda4135f5547b5860d218"
+  },
+  {
+    "path": "data/2/L/PH&L/database.txt",
+    "bytes": 5225,
+    "sha256": "cc83e93a67d879d0bad2833ce76157147c8a4a0cd3af16437356d0433e60122b"
+  },
+  {
+    "path": "data/2/S/ECO/database.sqlite",
+    "bytes": 12288,
+    "sha256": "4d9460a3cfa5c70741ae5d757f7ba8a9e5acefd9400b867d0c2af6d89ce4d1df"
+  },
+  {
+    "path": "data/2/S/ECO/database.txt",
+    "bytes": 5163,
+    "sha256": "af93ed12beb8c207e491db83fa930250dbfeb480618be8a8a67b7d6289a20fdd"
+  },
+  {
+    "path": "data/2/S/MAT/database.sqlite",
+    "bytes": 12288,
+    "sha256": "24c12a1d65358b2d31411fb7efb0441f05dcc9e399a044e7b6d128b8356abf06"
+  },
+  {
+    "path": "data/2/S/MAT/database.txt",
+    "bytes": 4936,
+    "sha256": "c206a137bda99505dc2b7f676bc7de96488e080b39f2735e3fc2eb3e9d508fd7"
+  },
+  {
+    "path": "data/2/S/SC/database.sqlite",
+    "bytes": 12288,
+    "sha256": "25a1208291a91a2bb46d5a35842fff84daca567990ab71d579a2c8a38185e6e1"
+  },
+  {
+    "path": "data/2/S/SC/database.txt",
+    "bytes": 5010,
+    "sha256": "0ca8632c767cf04fb81d0bbaae85179fa206c8b7ae7aca8c4c2e51c4d80e2d4d"
+  },
+  {
+    "path": "data/2/S/TECH/database.sqlite",
+    "bytes": 12288,
+    "sha256": "106e51c4ae2618b9f3a5c4d90567b7e8a95e4ab2dd08724e26d548d96acc71b4"
+  },
+  {
+    "path": "data/2/S/TECH/database.txt",
+    "bytes": 4918,
+    "sha256": "4ef7ab7055e5cdc7174afcb3b3c0c9b94c93aaf13156cabc0fec25b9461024f6"
+  },
+  {
+    "path": "data/3/L/LANG/database.sqlite",
+    "bytes": 12288,
+    "sha256": "74680f67cf20023bf3ded399ff271ec228405e37c949c24ea6c84ceaecee647c"
+  },
+  {
+    "path": "data/3/L/LANG/database.txt",
+    "bytes": 4580,
+    "sha256": "65c9098c7f8f501d1c9aa8d9020df2d8c719b916b8433cc17dee222099307e17"
+  },
+  {
+    "path": "data/3/L/PH&L/database.sqlite",
+    "bytes": 12288,
+    "sha256": "a137bb90a5bc99d5b948019938c942c5a6da7666b6b9a0c586be3c25f035ee6f"
+  },
+  {
+    "path": "data/3/L/PH&L/database.txt",
+    "bytes": 5225,
+    "sha256": "52e4702be7f53011c992c87e03ed47c7dbc87aa91c76f0aa7d59dc758b819a11"
+  },
+  {
+    "path": "data/3/S/ECO/database.sqlite",
+    "bytes": 20480,
+    "sha256": "3337934c0576d23b2cb9e9a565f198aa999d546c8ed9f4ef0fc7b207c017f574"
+  },
+  {
+    "path": "data/3/S/ECO/database.txt",
+    "bytes": 5163,
+    "sha256": "0dc41953b54a44423d189fe1f0609735dd2336fb862cd03610fcbd32a036f799"
+  },
+  {
+    "path": "data/3/S/MAT/database.sqlite",
+    "bytes": 12288,
+    "sha256": "c95a15eed11687df6b7258f183fee2e24fec06153fa7c9c6fbc1ca9ccde1c4fc"
+  },
+  {
+    "path": "data/3/S/MAT/database.txt",
+    "bytes": 4936,
+    "sha256": "58bc2e8a7f4b2a0b114dc715f89bc9fcfedfdcc673e543b247880d733773950e"
+  },
+  {
+    "path": "data/3/S/SC/database.sqlite",
+    "bytes": 12288,
+    "sha256": "50585371167a1dacb2e177059f3eab4f0fd2da4f88c7e134f8d73d40da2277da"
+  },
+  {
+    "path": "data/3/S/SC/database.txt",
+    "bytes": 5009,
+    "sha256": "41da59468e69d19a7f846e2bd6bd083290bb68332c9740a0e4066fe0193f740c"
+  },
+  {
+    "path": "data/3/S/TECH/database.sqlite",
+    "bytes": 12288,
+    "sha256": "e46061afd7132150baaa70ecb7dae88dbddd0104b6dd6577d784e0aef05a6461"
+  },
+  {
+    "path": "data/3/S/TECH/database.txt",
+    "bytes": 4918,
+    "sha256": "6751622e633e498aabc7609b419f1dbce0a14d990245411a771886e2b8681d51"
+  },
+  {
+    "path": "data/main/1.jpg",
+    "bytes": 162,
+    "sha256": "5af9506e95e3255fafb55bce24fc608c17ee42fd667f76ac24640edf6458c868"
+  },
+  {
+    "path": "data/main/2.jpg",
+    "bytes": 162,
+    "sha256": "c4f49f40c88519162bfb1a4bd4ad9eac8b557f9a385f531620303b924f2b9143"
+  },
+  {
+    "path": "data/main/3.jpg",
+    "bytes": 162,
+    "sha256": "2b171e1c3f09da0424faadd5c2c165d8d0e778669b0e4aaefb33cbad5871afe7"
+  },
+  {
+    "path": "data/posts/database.sqlite",
+    "bytes": 12288,
+    "sha256": "86363847a94c9599ff792d0f18a7e8c1c867181b726a83a54b9e1bc5aa0e6fa0"
+  },
+  {
+    "path": "data/posts/database.txt",
+    "bytes": 947,
+    "sha256": "ddce52a110a30ef368aaad60bd95aa3fe922778e06c3f30cd033f6aefa157605"
+  },
+  {
+    "path": "data/teachers/database.sqlite",
+    "bytes": 16384,
+    "sha256": "eeb8f187ce8b6cfcc1c0e2b43a74cfe6239cd4f35b14b507bb256316566b5a85"
+  },
+  {
+    "path": "data/teachers/database.txt",
+    "bytes": 2812,
+    "sha256": "7974c5fd6e479653a3745a744318afedf77c158dbc9cf47eac561c1b3cfd32d8"
+  },
+  {
+    "path": "docs/api.ar.md",
+    "bytes": 1967,
+    "sha256": "65a32975e650784973bd6b194040588f8b6d235d327cbec9ed107cf85cc08a8b"
+  },
+  {
+    "path": "docs/api.md",
+    "bytes": 1444,
+    "sha256": "d317f2583da6df1c090fab0d30b74ca6f23c3186cdd17a01549a1704b9bd2fa7"
+  },
+  {
+    "path": "docs/architecture.ar.md",
+    "bytes": 1674,
+    "sha256": "573648b54afa60ab11305f0fd87809e1b7a8548f90ca4226064ffb343394cdcb"
+  },
+  {
+    "path": "docs/architecture.md",
+    "bytes": 1768,
+    "sha256": "ae52ce74a751c178bbeaf6bdcd37795cb0b3eb98e20139c2ed9113dd3e9a40da"
+  },
+  {
+    "path": "docs/architecture.svg",
+    "bytes": 2678,
+    "sha256": "715968cbd1827e6b566096adb88e23f90f73200fbf8519a82dc1406f89642ee3"
+  },
+  {
+    "path": "docs/asset-manifest.json",
+    "bytes": 774,
+    "sha256": "6d7e599dd4f40a567a32499c243a738007759829460d1f3ad2687c5eb16866ee"
+  },
+  {
+    "path": "docs/case-study.ar.md",
+    "bytes": 3046,
+    "sha256": "fdce05b5e427b440454d182c65fd830160bc6cfa3d206fe28a9d6a5385ee6916"
+  },
+  {
+    "path": "docs/case-study.md",
+    "bytes": 2375,
+    "sha256": "d500e43878a8c8a10c391be6e1d284c869145ffddef2e385085540988b93c0fc"
+  },
+  {
+    "path": "docs/demo-account.json",
+    "bytes": 476,
+    "sha256": "6fc3f3570617a3f7d08b723ea3d0590914d99488907c9431b0f2f98e12ddd2d0"
+  },
+  {
+    "path": "docs/demo.ar.md",
+    "bytes": 2463,
+    "sha256": "7c2ff1a76eb2646a1ebfe8be3f8fe2d7f3ec1f730e3fec64dfb3d9353af592e4"
+  },
+  {
+    "path": "docs/demo.md",
+    "bytes": 1171,
+    "sha256": "a198b2fbf56ac98d24b832a51831d46033ad231105faf14e4f6a916efecf25ae"
+  },
+  {
+    "path": "docs/deployment.ar.md",
+    "bytes": 2226,
+    "sha256": "d6b70cedfebdc75678f7d97b8db68db4e6b1768c25d6400d6f67806006d10138"
+  },
+  {
+    "path": "docs/deployment.md",
+    "bytes": 1455,
+    "sha256": "8970fae08f0a2a7af3d154b92abf004055daa9d24a90c535b8bb0b284dd552a9"
+  },
+  {
+    "path": "docs/images/teacher-class.jpg",
+    "bytes": 30991,
+    "sha256": "b93b9f334debdb61a368b59469d1a5ded60839b50baf56f0c2eb3d7026dae492"
+  },
+  {
+    "path": "docs/images/teacher-dashboard.jpg",
+    "bytes": 44292,
+    "sha256": "bbafe1b8d217ebc85806916a81ca2ed33009c9897350341656143f27f63065ab"
+  },
+  {
+    "path": "docs/images/teacher-grades.jpg",
+    "bytes": 30376,
+    "sha256": "b6d37c137016de38599e3386a8603703147b3f87910459758b504639702d9b71"
+  },
+  {
+    "path": "docs/setup.ar.md",
+    "bytes": 1863,
+    "sha256": "1b4a7e5bbb6a318ed6d32786aa936aea7a81c85e7f4cb5ea4daec37dd68ec988"
+  },
+  {
+    "path": "docs/setup.md",
+    "bytes": 2218,
+    "sha256": "b5929a6b2307700f784bad960f011563f719950a0f26867a0033800c5d51ccfe"
+  },
+  {
+    "path": "docs/verification.ar.md",
+    "bytes": 2162,
+    "sha256": "e0284cf1e2e5a54b798b152608db6d9f74ab83db3eac01b87367144631ef2aff"
+  },
+  {
+    "path": "docs/verification.md",
+    "bytes": 1836,
+    "sha256": "bd3cb0c92cbae23357977e27a79ee30b17170183cbd893f8464a71c248ed1695"
+  },
+  {
+    "path": "fixtures/data/1/L/database.sqlite",
+    "bytes": 12288,
+    "sha256": "bc1ee5657502785a6acf08fc9727fbcd9f71b61d26b57c80066bba126d6ba86c"
+  },
+  {
+    "path": "fixtures/data/1/S/database.sqlite",
+    "bytes": 12288,
+    "sha256": "c25fcaaf088fb889ab68a0123b77c338636fa09df8431933166ff9abaf5315d1"
+  },
+  {
+    "path": "fixtures/data/2/L/LANG/database.sqlite",
+    "bytes": 24576,
+    "sha256": "0ed47bf8d212ce10582b238408ac32590d81a0d9f7b934c3c9b40e8976d1d27d"
+  },
+  {
+    "path": "fixtures/data/2/L/PH&L/database.sqlite",
+    "bytes": 24576,
+    "sha256": "abc7f115a3ce065cb9bd3ece1352825e9b07312c3ccbda4135f5547b5860d218"
+  },
+  {
+    "path": "fixtures/data/2/S/ECO/database.sqlite",
+    "bytes": 12288,
+    "sha256": "4d9460a3cfa5c70741ae5d757f7ba8a9e5acefd9400b867d0c2af6d89ce4d1df"
+  },
+  {
+    "path": "fixtures/data/2/S/MAT/database.sqlite",
+    "bytes": 12288,
+    "sha256": "24c12a1d65358b2d31411fb7efb0441f05dcc9e399a044e7b6d128b8356abf06"
+  },
+  {
+    "path": "fixtures/data/2/S/SC/database.sqlite",
+    "bytes": 12288,
+    "sha256": "25a1208291a91a2bb46d5a35842fff84daca567990ab71d579a2c8a38185e6e1"
+  },
+  {
+    "path": "fixtures/data/2/S/TECH/database.sqlite",
+    "bytes": 12288,
+    "sha256": "106e51c4ae2618b9f3a5c4d90567b7e8a95e4ab2dd08724e26d548d96acc71b4"
+  },
+  {
+    "path": "fixtures/data/3/L/LANG/database.sqlite",
+    "bytes": 12288,
+    "sha256": "74680f67cf20023bf3ded399ff271ec228405e37c949c24ea6c84ceaecee647c"
+  },
+  {
+    "path": "fixtures/data/3/L/PH&L/database.sqlite",
+    "bytes": 12288,
+    "sha256": "a137bb90a5bc99d5b948019938c942c5a6da7666b6b9a0c586be3c25f035ee6f"
+  },
+  {
+    "path": "fixtures/data/3/S/ECO/database.sqlite",
+    "bytes": 20480,
+    "sha256": "3337934c0576d23b2cb9e9a565f198aa999d546c8ed9f4ef0fc7b207c017f574"
+  },
+  {
+    "path": "fixtures/data/3/S/MAT/database.sqlite",
+    "bytes": 12288,
+    "sha256": "c95a15eed11687df6b7258f183fee2e24fec06153fa7c9c6fbc1ca9ccde1c4fc"
+  },
+  {
+    "path": "fixtures/data/3/S/SC/database.sqlite",
+    "bytes": 12288,
+    "sha256": "50585371167a1dacb2e177059f3eab4f0fd2da4f88c7e134f8d73d40da2277da"
+  },
+  {
+    "path": "fixtures/data/3/S/TECH/database.sqlite",
+    "bytes": 12288,
+    "sha256": "e46061afd7132150baaa70ecb7dae88dbddd0104b6dd6577d784e0aef05a6461"
+  },
+  {
+    "path": "fixtures/data/posts/database.sqlite",
+    "bytes": 12288,
+    "sha256": "86363847a94c9599ff792d0f18a7e8c1c867181b726a83a54b9e1bc5aa0e6fa0"
+  },
+  {
+    "path": "fixtures/data/teachers/database.sqlite",
+    "bytes": 16384,
+    "sha256": "eeb8f187ce8b6cfcc1c0e2b43a74cfe6239cd4f35b14b507bb256316566b5a85"
+  },
+  {
+    "path": "index.php",
+    "bytes": 40813,
+    "sha256": "88af44030c3cab3d8f319e0bdae0f3913fc4849e9917c390b7cf1425e8c40351"
+  },
+  {
+    "path": "management.php",
+    "bytes": 108360,
+    "sha256": "f197939c354f830d32b0efbadff713d30782ea726bf5e6cba07fa89e60b0f5dc"
+  },
+  {
+    "path": "post.php",
+    "bytes": 38513,
+    "sha256": "6f658e813a0a12325ae6ada97fb822bd03f67003a515a71684dc17f82d5a1856"
+  },
+  {
+    "path": "router.php",
+    "bytes": 275,
+    "sha256": "e37664d4a0add4713053999166b35682371b054c9eb2362adebe35f1a02abc63"
+  },
+  {
+    "path": "student.php",
+    "bytes": 63853,
+    "sha256": "f4fa158c7e0ff248f86e6434f0298988dceb001c2776d5f2a8f0d3d75960b080"
+  },
+  {
+    "path": "student_management.php",
+    "bytes": 101474,
+    "sha256": "8c679417a2e075c75f20c1aec3285c35323bb010c5c832dfc3fda4977faaf075"
+  },
+  {
+    "path": "teacher.php",
+    "bytes": 97340,
+    "sha256": "3d9958938938bf907988ffcb916432539d7e235695fe5abf491e16fa0f9b6209"
+  },
+  {
+    "path": "tools/check-demo.py",
+    "bytes": 3026,
+    "sha256": "7621b224a065709490a18df4e1cc9a57a0044a4890b4625db566b60ca99e6084"
+  },
+  {
+    "path": "tools/check-syntax.py",
+    "bytes": 275,
+    "sha256": "c4bf06ad8bd64466f483c2570ef4fa9f04c56b0f18c62561c4b03c0a7e621178"
+  },
+  {
+    "path": "tools/reset_demo.py",
+    "bytes": 472,
+    "sha256": "bb5cebefac6d00c97834bf89a8ede00ca8aa8db07d4851186179448a3fe72ef5"
+  }
+]

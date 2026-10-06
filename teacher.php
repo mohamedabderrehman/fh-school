@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                     // تم التعديل: إضافة data-student-id
                     echo '<span class="student-info" data-student-id="' . htmlspecialchars($student['student_id']) . '" data-student-name="' . htmlspecialchars($student['full_name']) . '">';
                     echo '<span class="student-name">' . htmlspecialchars($student['full_name']) . '</span>';
-                    echo '<button type="button" class="grades-dropdown-toggle"></button>';
+                    echo '<button type="button" class="grades-dropdown-toggle" aria-label="عرض العلامات">⌄</button>';
                     echo '</span>';
                     // تم استبدال زر الغياب بمربع التحقق
                     echo '<div class="absence-checkbox-wrapper">';
@@ -2033,7 +2033,7 @@ if (isset($_POST['subject_name'])) {
                         modal.dataset.classNum = buttonData.classNum;
                         modal.dataset.subjectName = buttonData.subjectName;
 
-                        fetch('teacher.php', { method: 'POST', body: formData })
+                        fetch('teacher.php', { method: 'POST', headers: {'X-CSRF-Token': csrfToken}, body: formData })
                         .then(response => response.ok ? response.text() : Promise.reject('Network response was not ok.'))
                         .then(html => { modalBody.innerHTML = html; })
                         .catch(error => {
@@ -2091,7 +2091,7 @@ if (isset($_POST['subject_name'])) {
                             to_time: toTime
                         });
 
-                        fetch('teacher.php', { method: 'POST', body: formData })
+                        fetch('teacher.php', { method: 'POST', headers: {'X-CSRF-Token': csrfToken}, body: formData })
                         .then(response => response.json())
                         .then(data => {
                             if (data.success) {
@@ -2149,7 +2149,7 @@ if (isset($_POST['subject_name'])) {
                             subject_name: modal.dataset.subjectName
                         });
 
-                        fetch('teacher.php', { method: 'POST', body: formData })
+                        fetch('teacher.php', { method: 'POST', headers: {'X-CSRF-Token': csrfToken}, body: formData })
                         .then(response => response.ok ? response.text() : Promise.reject('Network response was not ok.'))
                         .then(html => { dropdownContainer.innerHTML = `<div class="grades-dropdown-content">${html}</div>`; })
                         .catch(error => {
@@ -2199,7 +2199,7 @@ if (isset($_POST['subject_name'])) {
 
                         fetch('teacher.php', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                            headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-CSRF-Token': csrfToken },
                             body: new URLSearchParams(postData)
                         })
                         .then(response => response.json())
@@ -2254,7 +2254,7 @@ if (isset($_POST['subject_name'])) {
 
                         fetch('teacher.php', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                            headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'X-CSRF-Token': csrfToken },
                             body: new URLSearchParams(postData)
                         })
                         .then(response => response.json())

@@ -92,3 +92,22 @@ Open an issue describing a reproducible problem, expected behavior and component
 ## License and attribution
 
 Source code is MIT licensed. Third-party dependencies and assets retain their own terms; see [attribution](THIRD_PARTY_NOTICES.md).
+
+<!-- release-presentation -->
+
+## Actual application interface
+
+![FH-School — interface with synthetic demonstration data](docs/images/teacher-grades.jpg)
+
+Captured from the local application with synthetic records. This does not establish production usage or Android device verification.
+
+## Verification and deeper reading
+
+PHP syntax and fixture HTTP checks passed: synthetic teacher login, required CSRF token, permitted class loading, foreign class/subject rejection, blocked database downloads and accessible public artwork. Browser checks passed class loading and grade editing. HTTP checks verified persisted grades, invalid-grade rejection and attendance increments; modified records were restored. Original sample SQLite records are owner-confirmed synthetic; reset snapshots are included.
+
+Legacy synthetic passwords remain plaintext inside the sample database. Treat this release as a local legacy demonstration; real student records require a password-storage migration and broader authorization review. Teacher grade and attendance persistence passed; broader admin/student workflows and cross-role browser review remain.
+
+- [Case study](docs/case-study.md)
+- [Verification](docs/verification.md)
+- [Architecture diagram](docs/architecture.svg)
+- [Portfolio case study](https://mohamed-abderrehmane-portfolio.wry-dog-0796.chatgpt.site/projects/fh-school/)

@@ -20,4 +20,21 @@ code,html=call('/teacher.php',payload,token)
 assert code==200 and len(html)>100,(code,html)
 assert call('/teacher.php',dict(payload,classNum='99'),token)[0]==403
 assert call('/teacher.php',dict(payload,subject='unsupported'),token)[0]==403
-print('PASS: fixture database protection, public artwork, synthetic teacher login, CSRF, permitted class, foreign class and subject rejection.')
+import sqlite3
+from pathlib import Path
+db=Path(__file__).resolve().parent.parent/'data/1/S/database.sqlite'
+with sqlite3.connect(db) as conn:
+ row=conn.execute("SELECT student_id, mathematics_term1, absence_details, absence_count FROM scientific_students WHERE class_name='1 علمي 2' LIMIT 1").fetchone()
+ assert row
+ student,grade,details,count=row
+try:
+ code,body=call('/teacher.php',dict(payload,action='save_grades',student_id=student,subject_name=payload['subject'],grades=json.dumps({'term1':['17','18']})),token)
+ assert code==200 and json.loads(body)['success']
+ with sqlite3.connect(db) as conn:assert conn.execute('SELECT mathematics_term1 FROM scientific_students WHERE student_id=?',(student,)).fetchone()[0]=='17,18'
+ assert call('/teacher.php',dict(payload,action='save_grades',student_id=student,subject_name=payload['subject'],grades=json.dumps({'term1':['21']})),token)[0]==422
+ code,body=call('/teacher.php',dict(payload,action='register_mass_absence',student_ids=json.dumps([student]),from_time='08:00',to_time='09:00'),token)
+ assert code==200 and json.loads(body)['success']
+ with sqlite3.connect(db) as conn:assert conn.execute('SELECT absence_count FROM scientific_students WHERE student_id=?',(student,)).fetchone()[0]==int(count or 0)+1
+finally:
+ with sqlite3.connect(db) as conn:conn.execute('UPDATE scientific_students SET mathematics_term1=?,absence_details=?,absence_count=? WHERE student_id=?',(grade,details,count,student))
+print('PASS: protected fixtures, teacher login, CSRF, class/subject isolation, persisted grades, invalid grades and attendance updates; modified records restored.')

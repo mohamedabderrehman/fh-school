@@ -1,17 +1,32 @@
-# الإعداد
+# الإعداد الكامل
 
-استخدم PHP مع PDO SQLite وSQLite3 والجلسات. شغّل `php -S 127.0.0.1:8083 router.php`. امنح الكتابة لقواعد ومرفقات العرض فقط. حسابات العرض في `docs/demo-accounts.md`. لا تعرض الخادم التطويري للعامة. أوقفه قبل تنفيذ أمر استعادة العينات.
+فعّل SQLite3 وPDO SQLite. حساب الأستاذ الاصطناعي ahmed وكلمته teacher2025. اختر أولى ثانوي والشعبة العلمية والقسم 2 والرياضيات لبيانات موجودة. اضبط DEMO_ADMIN_PASSWORD في بيئة PHP لدخول demo-admin. أوقف الخادم قبل استعادة العينات. تبقى كلمات مرور الأستاذ والطلاب الاصطناعية بالتخزين النصي القديم.
 
-## التفاصيل والأوامر
+## الأوامر
 
-Use PHP with PDO SQLite, SQLite3 and sessions. From this repository run `php -S 127.0.0.1:8083 router.php`. Only demo databases and attachment directories should be writable. Read `docs/demo-accounts.md` for synthetic account examples. Do not expose the development server publicly. Reset via `python tools/reset_demo.py --confirm` after stopping the server.
+```sh
+php -S 127.0.0.1:8083 router.php
+# Separate terminal:
+python tools/check-syntax.py
+python tools/check-demo.py
+# Stop PHP before explicitly restoring only the included synthetic fixtures:
+python tools/reset_demo.py --confirm
+```
 
-## متغيرات تقرأها الشيفرة
+## جرد الإعداد
 
-| Variable | Source consumer | Configuration rule |
+| المتغير | موضع الاستخدام | قاعدة الإعداد |
 |---|---|---|
 
 
-لا تُحمَّل ملفات الأمثلة تلقائياً. تستخدم وحدات dotenv الملف حيث تكون مهيأة، ويستخدم PHP بيئة العملية أو الاستضافة. افصل المزودين عن العرض وأنشئ أسراراً جديدة واحفظها خارج المستودع.
+ليست كل متغيرات الجرد إلزامية. تحدد الفقرة الأولى قيم التشغيل الأساسية، وتلزم قيم المزود للتكامل الحي المفعل فقط. تتجاوز DEMO_API_URL هدف الفحص المحلي عند دعمه. لا توجه أوامر التعبئة والاستعادة والفحص لقاعدة إنتاج. لا تُحمّل أمثلة البيئة نفسها تلقائياً؛ جهز بيئة العملية أو dotenv حيث يستخدمه المكون.
 
-## أوامر المكونات
+## المكونات
+
+| المكون | المسؤولية |
+|---|---|
+| `student.php` | مصادقة الطالب ولوحته |
+| `teacher.php` | طلبات AJAX ولوحة الأستاذ |
+| `management.php` | إدارة الحسابات والإعلانات |
+| `student_management.php` | إدارة السجلات الدراسية |
+| `data/` | قواعد SQLite موزعة ببيانات اصطناعية |
