@@ -31,13 +31,13 @@
   },
   {
     "path": "README.ar.md",
-    "bytes": 6894,
-    "sha256": "147b18c82344b0b55ce1cd840361214fd3dc5b442d94511692867ab5d629618b"
+    "bytes": 6983,
+    "sha256": "e43eb6ee75e324465448a84c3a67e09cc704edd6acc48e6737645bf641cdad21"
   },
   {
     "path": "README.md",
-    "bytes": 5686,
-    "sha256": "9c6ff5a42cd7ba52e9ae42f54bec553890a4e973325c95454482c126390d5583"
+    "bytes": 5767,
+    "sha256": "b165d5852e49ab4f9043bea274a30f792481928dd26b44b1f90b9a5cdc250a15"
   },
   {
     "path": "SECURITY.md",
@@ -293,6 +293,16 @@
     "path": "docs/deployment.md",
     "bytes": 1455,
     "sha256": "8970fae08f0a2a7af3d154b92abf004055daa9d24a90c535b8bb0b284dd552a9"
+  },
+  {
+    "path": "docs/engineering-notes.ar.md",
+    "bytes": 1812,
+    "sha256": "1583a9e84c0bab148306dc479c84d1f51317a980edd5f2512c337b33e7d16725"
+  },
+  {
+    "path": "docs/engineering-notes.md",
+    "bytes": 1514,
+    "sha256": "5b4b0bc8d8f49714a4bdcdc3e8057d02a1e67a4a8edc72d5708157cf1e5ac947"
   },
   {
     "path": "docs/images/teacher-class.jpg",
