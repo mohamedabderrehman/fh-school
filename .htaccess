@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^data/(?:main/[0-9]+\.(?:jpg|png)|posts/[^/]+\.(?:jpg|jpeg|png|pdf))$ - [L,NC]
+RewriteRule ^(?:data|fixtures)/ - [F,L]

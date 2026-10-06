@@ -1,0 +1,53 @@
+-- إنشاء جدول الأساتذة
+CREATE TABLE IF NOT EXISTS teachers (
+    teacher_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    full_name TEXT NOT NULL,
+    username_password TEXT NOT NULL UNIQUE,
+    permission TEXT NOT NULL
+);
+
+
+-- نموذج المدرس الأول
+INSERT INTO teachers (full_name, username_password, permission) VALUES 
+('أحمد محمد السالم', 'ahmed:teacher2025', 
+'Year: اول ثانوي / branch: علمي / subject: اللغة العربية / classes: 1,2,3 | Year: اول ثانوي / branch: علمي / subject: الرياضيات / classes: 1,2,3 | Year: اول ثانوي / branch: ادبي / subject: الفيزياء / classes: 1,2,3 | Year: ثاني ثانوي / branch: علمي / subject: اللغة العربية / part: تقني رياضي / classes: 1,2,3');
+
+-- نموذج المدرس الثاني  
+INSERT INTO teachers (full_name, username_password, permission) VALUES 
+('فاطمة علي الأحمد', 'fatima:teacher2025', 
+'Year: اول ثانوي / branch: علمي / subject: الفيزياء / classes: 1,2,3 | Year: اول ثانوي / branch: علمي / subject: العلوم الطبيعية / classes: 1,2,3 | Year: اول ثانوي / branch: ادبي / subject: الفيزياء / classes: 1,2,3 | Year: ثالث ثانوي / branch: علمي / subject: الفيزياء / part: تقني رياضي / classes: 1,2,3');
+
+-- عرض جميع الأساتذة
+SELECT * FROM teachers;
+
+-- البحث حسب اليوزرنيم والباسورد
+SELECT * FROM teachers WHERE username_password = 'ahmed:teacher2025';
+
+-- عرض صلاحيات أحمد
+SELECT full_name, permission FROM teachers WHERE username_password = 'ahmed:teacher2025';
+
+-- عرض صلاحيات فاطمة  
+SELECT full_name, permission FROM teachers WHERE username_password = 'fatima:teacher2025';
+
+/*
+تفسير النموذج الجديد:
+
+نموذج أحمد:
+- السنة الأولى ثانوي:
+  * الفرع العلمي: كيمياء (أقسام 1,2,3) + فيزياء (أقسام 1,2,3)
+  * الفرع الأدبي: كيمياء (أقسام 1,2,3)
+- السنة الثانية ثانوي:
+  * الفرع العلمي: كيمياء - تقني رياضي (أقسام 1,2,3)
+
+نموذج فاطمة:
+- السنة الأولى ثانوي:
+  * الفرع العلمي: كيمياء (أقسام 1,2,3) + فيزياء (أقسام 1,2,3)  
+  * الفرع الأدبي: كيمياء (أقسام 1,2,3)
+- السنة الثالثة ثانوي:
+  * الفرع العلمي: كيمياء - تقني رياضي (أقسام 1,2,3)
+
+الهيكل:
+Year: [السنة] / branch: [الفرع] / subject: [المادة] / part: [التخصص] / classes: [الأقسام]
+
+الفصل بين البيانات المختلفة بـ |
+*/

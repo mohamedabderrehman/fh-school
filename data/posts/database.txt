@@ -1,0 +1,15 @@
+-- إنشاء جدول المنشورات
+CREATE TABLE IF NOT EXISTS posts (
+    postid TEXT PRIMARY KEY,
+    letter TEXT NOT NULL,
+    views INTEGER DEFAULT 0,
+    files TEXT,
+    date TEXT NOT NULL
+);
+
+-- إدخال بيانات تجريبية
+INSERT INTO posts (postid, letter, views, files, date) VALUES 
+('1200', 'منشور تعليمي حول الرياضيات للصف الأول الثانوي', 150, '/data/posts/files/12039394949445.jpg | /data/posts/files/12039394949446.jpg | /data/posts/files/12039394949449.jpg', '2025/8/14 | 11:08'),
+('10288', 'درس في الفيزياء - الحركة والقوة', 89, '/data/posts/files/12039394949445.jpg', '2025/8/15 | 11:08'),
+('1838384', 'قواعد اللغة العربية - النحو والصرف', 203, '/data/posts/files/12039394949445.mp4', '2025/8/16 | 11:08'),
+('294949', 'مراجعة شاملة للامتحان النهائي', 45, NULL, '2025/8/17 | 11:08');
