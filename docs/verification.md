@@ -1,6 +1,6 @@
 # Current release verification
 
-Recorded on 2026-10-06 using disposable local data. Historical deployment is a separate owner-provided fact.
+Recorded on 2026-10-06 using disposable local data. Historical deployment and these development checks are recorded separately.
 
 ## Passed locally
 

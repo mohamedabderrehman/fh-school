@@ -36,8 +36,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 5767,
-    "sha256": "b165d5852e49ab4f9043bea274a30f792481928dd26b44b1f90b9a5cdc250a15"
+    "bytes": 5768,
+    "sha256": "81a3118e98e73729ec7881a0eb4ad4dbbdccc7868da0b8ef9ec62a73ef547f7b"
   },
   {
     "path": "SECURITY.md",
@@ -266,8 +266,8 @@
   },
   {
     "path": "docs/case-study.md",
-    "bytes": 2375,
-    "sha256": "d500e43878a8c8a10c391be6e1d284c869145ffddef2e385085540988b93c0fc"
+    "bytes": 2376,
+    "sha256": "ea932f3d7edd928a08cd9e54c7eacb976cfcc234562775d8f27eb4f4d196e5e9"
   },
   {
     "path": "docs/demo-account.json",
@@ -291,8 +291,8 @@
   },
   {
     "path": "docs/deployment.md",
-    "bytes": 1455,
-    "sha256": "8970fae08f0a2a7af3d154b92abf004055daa9d24a90c535b8bb0b284dd552a9"
+    "bytes": 1456,
+    "sha256": "aa180a5594260af7118f2f20f5e7cd04537aa4997ce504d7cc0dfbc1e0bd42e6"
   },
   {
     "path": "docs/engineering-notes.ar.md",
@@ -341,13 +341,13 @@
   },
   {
     "path": "docs/verification.ar.md",
-    "bytes": 2162,
-    "sha256": "e0284cf1e2e5a54b798b152608db6d9f74ab83db3eac01b87367144631ef2aff"
+    "bytes": 2177,
+    "sha256": "16983895b8b2fc4f2e1f3212e731ced83d0e26e4d36cbf20d90c10090faa260c"
   },
   {
     "path": "docs/verification.md",
-    "bytes": 1836,
-    "sha256": "bd3cb0c92cbae23357977e27a79ee30b17170183cbd893f8464a71c248ed1695"
+    "bytes": 1855,
+    "sha256": "6e1c280e9c8a73981ee8b0893437a81ebd5216542fca2b8efcd6a5583a5ad92e"
   },
   {
     "path": "fixtures/data/1/L/database.sqlite",

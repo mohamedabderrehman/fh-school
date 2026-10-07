@@ -22,7 +22,7 @@ PHP syntax and fixture HTTP checks passed: synthetic teacher login, required CSR
 
 ## Deployment experience and evidence limits
 
-Older working school portal. The owner confirms the database records are fake; included fixtures are labelled synthetic.
+Older working school portal. I use synthetic school records for demonstrations; included fixtures are labelled synthetic.
 
 Legacy synthetic passwords remain plaintext inside the sample database. Treat this release as a local legacy demonstration; real student records require a password-storage migration and broader authorization review. Teacher grade and attendance persistence passed; broader admin/student workflows and cross-role browser review remain.
 

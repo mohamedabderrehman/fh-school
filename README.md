@@ -10,7 +10,7 @@ Give students, teachers and administrators role-specific views of academic recor
 
 ## Status and deployment history
 
-Older working school portal. The owner confirms the database records are fake; included fixtures are labelled synthetic.
+Older working school portal. I use synthetic school records for demonstrations; included fixtures are labelled synthetic.
 
 This is a sanitized portfolio release. See the current [verification record](docs/verification.md) before choosing a runtime demonstration.
 

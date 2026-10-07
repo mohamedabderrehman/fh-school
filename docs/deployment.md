@@ -2,7 +2,7 @@
 
 ## Historical status
 
-Older working school portal. The owner confirms the database records are fake; included fixtures are labelled synthetic.
+Older working school portal. I use synthetic school records for demonstrations; included fixtures are labelled synthetic.
 
 بوابة مدرسية قديمة تعمل. أكد المالك أن سجلات قواعد البيانات وهمية وتُوسم العينات بأنها اصطناعية.
 
