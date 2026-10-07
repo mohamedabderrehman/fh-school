@@ -31,13 +31,13 @@
   },
   {
     "path": "README.ar.md",
-    "bytes": 6983,
-    "sha256": "e43eb6ee75e324465448a84c3a67e09cc704edd6acc48e6737645bf641cdad21"
+    "bytes": 7017,
+    "sha256": "7706918670dd2cb0de124f7a4e5572a544a34bbabdd920cd23bb98392ce43036"
   },
   {
     "path": "README.md",
-    "bytes": 5768,
-    "sha256": "81a3118e98e73729ec7881a0eb4ad4dbbdccc7868da0b8ef9ec62a73ef547f7b"
+    "bytes": 5815,
+    "sha256": "f4492e908619699dcab157a562f8b31290f9b3c0b870e33bd3b053a9e1aeb1cc"
   },
   {
     "path": "SECURITY.md",
@@ -46,8 +46,8 @@
   },
   {
     "path": "THIRD_PARTY_NOTICES.md",
-    "bytes": 2334,
-    "sha256": "e564e47d6802d9b741bcf96cc31e719417234c2cde744d687b5ca290261391a6"
+    "bytes": 2336,
+    "sha256": "ceff25d5bf2b8cc8d1e6d752c384203f49daca19c7798686f48845bdc73e0a27"
   },
   {
     "path": "csrf.php",
@@ -261,13 +261,13 @@
   },
   {
     "path": "docs/case-study.ar.md",
-    "bytes": 3046,
-    "sha256": "fdce05b5e427b440454d182c65fd830160bc6cfa3d206fe28a9d6a5385ee6916"
+    "bytes": 3080,
+    "sha256": "6fa0ebc8302ab71eaeea372fa3c2227b636e24c165732333a44ec599603d3353"
   },
   {
     "path": "docs/case-study.md",
-    "bytes": 2376,
-    "sha256": "ea932f3d7edd928a08cd9e54c7eacb976cfcc234562775d8f27eb4f4d196e5e9"
+    "bytes": 2423,
+    "sha256": "247a1e56fa76d5e043fc65bea1cc10edbbaa2ea4d8651f5dedf52314a9d469ba"
   },
   {
     "path": "docs/demo-account.json",

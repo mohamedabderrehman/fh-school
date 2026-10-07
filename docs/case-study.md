@@ -1,8 +1,8 @@
-# A working legacy school portal
+# An Algerian school management portal
 
 ## From the problem to the implementation
 
-Give students, teachers and administrators role-specific views of academic records and school communication.
+An Algerian school management platform giving students, teachers and administrators role-specific views of academic records and school communication.
 
 Student signs into an academic-year record → teacher opens a permitted subject/class → grades or attendance are saved → administrator publishes announcements and manages accounts.
 

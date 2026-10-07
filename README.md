@@ -1,10 +1,10 @@
 # FH-School
 
-**A working legacy school portal**
+**An Algerian school management portal**
 
 [العربية](README.ar.md)
 
-Give students, teachers and administrators role-specific views of academic records and school communication.
+An Algerian school management platform giving students, teachers and administrators role-specific views of academic records and school communication.
 
 **Technology:** PHP · SQLite · JavaScript · Arabic RTL
 
