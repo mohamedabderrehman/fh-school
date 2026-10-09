@@ -100,6 +100,6 @@ PHP --> PostsSQLite
 - [دراسة المشروع](docs/case-study.ar.md)
 - [التحقق](docs/verification.ar.md)
 - [مخطط البنية](docs/architecture.svg)
-- [صفحة المشروع](https://mohamed-abderrehmane-portfolio.hillock-factual9mupt.chatgpt.site/ar/projects/fh-school/)
+- [صفحة المشروع](https://mohamedabderrehmane.netlify.app/ar/projects/fh-school/)
 
 - [تفاصيل هندسية ودروس التنفيذ](docs/engineering-notes.ar.md)
